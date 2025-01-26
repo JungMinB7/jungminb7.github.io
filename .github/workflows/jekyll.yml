@@ -56,7 +56,7 @@ jobs:
   deploy:
     environment:
       name: JungMinBy
-      url: ${{ jungminb7.github.io}}
+      url: ${{jungminb7.github.io}}
     runs-on: ubuntu-latest
     needs: build
     steps:
