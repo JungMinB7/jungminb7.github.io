@@ -55,8 +55,8 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: JungMinBy
+      url: ${{ jungminb7.github.io}}
     runs-on: ubuntu-latest
     needs: build
     steps:
