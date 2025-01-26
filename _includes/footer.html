@@ -7,12 +7,12 @@
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
   "
 >
-  <p>
+ <p>
     {{- '©' }}
     <time>{{ 'now' | date: '%Y' }}</time>
 
     {% if site.social.links %}
-      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+      <a href="{{https://github.com/JungMinB7}">{{jungmin.lee}}</a>.
     {% else %}
       <em class="fst-normal">{{ site.social.name }}</em>.
     {% endif %}
@@ -45,5 +45,5 @@
     {%- endcapture -%}
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
-  </p>
+  </p> 
 </footer>
